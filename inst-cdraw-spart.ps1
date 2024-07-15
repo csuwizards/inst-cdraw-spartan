@@ -1,4 +1,7 @@
 # This task installs both ChemDraw and Spartan for Science Chem Lab #415
+#      note that the two installer files (ChemDraw.zip and Spartan20Installer114.exe) are 
+#      saved in the SCCM applications area b/c they are too big to store in G/H
+
 $public = "c:\temp"
 # mkdir "$public\SS415"
 $workdir="$public\SS415"
